@@ -12,11 +12,6 @@ pipeline {
                 echo 'building'
             }
         } 
-        stage('Hello') {
-            steps {
-                echo 'Hello World'
-            }
-        } 
         stage('test') {
             steps {
                 echo 'testing'
